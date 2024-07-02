@@ -102,7 +102,7 @@ def get_model_info():
     import requests
 
     url = "https://api-inference.huggingface.co/models/bert-base-uncased"
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer "}
     response = requests.get(url, headers=headers)
     
     if response.status_code != 200:
